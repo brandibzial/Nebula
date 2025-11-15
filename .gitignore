@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# env
+.env
+.env.*
+
+# logs
+npm-debug.log*
+yarn-error.log*
+*.log
+
+# node
+node_modules/
+frontend/node_modules/
+contracts/node_modules/
+
+# hardhat build
+contracts/artifacts/
+contracts/cache/
+contracts/coverage/
+contracts/coverage.json
+contracts/deployments/sepolia/
+
+# nextjs build
+frontend/.next/
+frontend/.vercel/
+frontend/out/
